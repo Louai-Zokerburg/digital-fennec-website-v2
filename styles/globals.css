@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .section {
+    @apply relative min-h-screen w-full;
+  }
+  .nav-link {
+    @apply w-fit mx-auto relative font-bold text-white hover:text-primary_color duration-300 cursor-pointer py-2 px-1 after:absolute after:bottom-0 after:left-0 after:rounded after:h-1 after:duration-300 after:w-0 after:bg-primary_color hover:after:w-full;
+  }
+  .inner-wrapper {
+    @apply w-full max-w-6xl px-4 mx-auto;
+  }
+
+  .container {
+    @apply flex flex-col justify-start items-center;
+  }
+
+}
+
+.active {
+  color: #CC0033;
+}
+
+.active::after {
+  width: 100%;
+}
