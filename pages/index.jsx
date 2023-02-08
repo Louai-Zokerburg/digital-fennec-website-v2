@@ -1,8 +1,12 @@
 import Navbar from '../components/Navbar'
 import Hero from '../sections/HeroSection'
+import About from '../sections/AboutUs'
 import Contact from '../sections/ContactSection'
 
 import { useEffect, useState } from 'react'
+
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 
 export default function Home() {
@@ -12,11 +16,13 @@ export default function Home() {
 
   useEffect(() => {
 
+    Aos.init()
+
     let listner = window.addEventListener('scroll', (e) => {
 
       console.log(window.scrollY)
 
-      if (window.scrollY > 130) {
+      if (window.scrollY > window.innerHeight / 10) {
         setOverlay(true)
       }
       else {
@@ -35,6 +41,7 @@ export default function Home() {
     <main className='text-center'>
       <Navbar overlay={overlay}/>
       <Hero />
+      <About />
       <Contact />
 
     </main>

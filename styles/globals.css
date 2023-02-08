@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&family=Poppins:wght@300;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer components {
   .section {
-    @apply relative min-h-screen w-full;
+    @apply relative min-h-screen w-full bg-white_color pt-[10vh] pb-8;
   }
   .nav-link {
     @apply w-fit mx-auto relative font-bold text-white hover:text-primary_color duration-300 cursor-pointer py-2 px-1 after:absolute after:bottom-0 after:left-0 after:rounded after:h-1 after:duration-300 after:w-0 after:bg-primary_color hover:after:w-full;
