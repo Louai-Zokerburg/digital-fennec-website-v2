@@ -44,7 +44,6 @@ const Navbar = ({ overlay }) => {
               duration={300}
               spy={true}
               smooth={true}
-              offset={100}
             >
               Home
             </Link>

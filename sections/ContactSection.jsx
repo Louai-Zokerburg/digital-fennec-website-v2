@@ -11,6 +11,8 @@ import instagram_img from '../assets/images/instagram_img.svg';
 import twitter_img from '../assets/images/twitter_img.svg';
 import gmail_img from '../assets/images/gmail_img.svg';
 
+// import somebting from '../assets/images/facebook_img.svg'
+
 const ContactSection = () => {
   return (
     <section className='section' id='contact'>
@@ -87,6 +89,7 @@ const ContactSection = () => {
           </h3>
 
           <iframe
+            data-aos='fade-up'
             src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20387.947288559142!2d2.930197155630883!3d36.75949594270917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128fb12d7d49ba0d%3A0x71039645ae39f177!2sDigital%20Fennec!5e0!3m2!1sen!2sdz!4v1675835167458!5m2!1sen!2sdz'
             className='w-full rounded-lg h-[40vh]'
           ></iframe>

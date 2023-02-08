@@ -6,22 +6,16 @@ import SectionTitle from '../components/SectionTitle';
 import about_section_img from '../assets/images/about_img.png';
 import HoverAccrodione from '../components/HoverAccrodione';
 
+// import facebook_img from '../s'
+
 const AboutUs = () => {
   return (
     <section className='section pt-[5vh] lg:pt-[10vh]' id='about'>
-
       <div className='inner-wrapper'>
-
-
         <SectionTitle text='About Us As a Company' />
 
-
-
-        <article className='w-full flex flex-col justify-start gap-y-8 lg:flex-row lg:text-lg  lg:gap-x-16 lg:items-center'>
-          <p
-            data-aos='fade-right'
-            className='text-black font-normal text-left'
-          >
+        <article className='relative w-full flex flex-col justify-start gap-y-8 lg:flex-row lg:text-lg  lg:gap-x-16 lg:items-center'>
+          <p data-aos='fade-right' className='text-black font-normal text-left'>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, ipsa
             non deserunt iste voluptate illo a repellat nulla veritatis, placeat
             similique cumque provident ullam quasi voluptatibus dolor, quam
@@ -37,9 +31,6 @@ const AboutUs = () => {
             className='duration-300 hover:animate-powel'
           />
         </article>
-
-
-
 
         <article
           data-aos='fade-right'
@@ -73,9 +64,11 @@ const AboutUs = () => {
           </p>
         </article>
 
-        <div  data-aos='fade-up' className='flex flex-col gap-x-8 gap-y-6 justify-between items-center w-full lg:flex-row mt-6 '>
-
-        <div className='flex flex-col items-center justify-start p-8 rounded-xl bg-white duration-300 hover:shadow-lg hover:translate-y-[-10px] cursor-default'>
+        <div
+          data-aos='fade-up'
+          className='flex flex-col gap-x-8 gap-y-6 justify-between items-center w-full lg:flex-row mt-6 '
+        >
+          <div className='flex flex-col items-center justify-start p-8 rounded-xl bg-white duration-300 hover:shadow-lg hover:translate-y-[-10px] cursor-default'>
             <h5 className='text-primary_color mb-4 font-semibold text-lg lg:text-xl'>
               Mission
             </h5>
@@ -110,7 +103,6 @@ const AboutUs = () => {
             </p>
           </div>
         </div>
-
       </div>
     </section>
   );
