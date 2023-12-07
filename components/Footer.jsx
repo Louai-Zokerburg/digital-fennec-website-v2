@@ -95,7 +95,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className='my-8 w-full h-[1px] rounded-lg bg-white'></div>
+        <div className='my-12 w-[80%] mx-auto h-[2px] rounded-lg bg-white_color'></div>
 
         <div className="flex justify-center w-full items-center gap-x-4">
             <Image src={facebook_img} alt='facebook icon' className='w-12 cursor-pointer'/>
@@ -104,7 +104,7 @@ const Footer = () => {
             <Image src={twitter_img} alt='facebook icon'  className='w-12 cursor-pointer' />
         </div>
 
-        <p className='text-white mt-4'>Digital Fennec. All rights Reserved 2023</p>
+        <p className='text-white mt-6'>Digital Fennec. All rights Reserved 2023</p>
       </div>
     </footer>
   );
