@@ -13,7 +13,6 @@ const HoverAccrodione = () => {
       data-aos='fade-up'
       className='flex justify-start items-center gap-x-4 lg:gap-x-8 gap-y-12 mt-6'
     >
-
       <div
         onMouseEnter={() => changeSelected(1)}
         className={`
@@ -30,9 +29,7 @@ const HoverAccrodione = () => {
         <h5
           className={`
           z-10 text-red-400 mb-6 font-bold text-lg lg:text-xl
-          ${
-            selected === 1 ? 'opacity-100' : 'opacity-0'
-          }
+          ${selected === 1 ? 'opacity-100' : 'opacity-0'}
           duration-300`}
         >
           Full-Stack Development
@@ -40,28 +37,22 @@ const HoverAccrodione = () => {
         <p
           className={`
           relative z-10 text-sm lg:text-gl text-white_color font-normal leading-7 lg:w-[65%]
-          ${
-            selected === 1 ? 'opacity-100' : 'opacity-0'
-          }
+          ${selected === 1 ? 'opacity-100' : 'opacity-0'}
           duration-300`}
         >
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit nobis,
-          vel impedit sequi beatae a qui ratione earum hic dolores quo sint
-          obcaecati numquam repellat quia dignissimos praesentium. Cupiditate,
-          nesciunt?
+          Delivering end-to-end solutions, our Full Stack Department combines
+          front-end and back-end expertise to ensure seamless, efficient, and
+          innovative development for Fennec Digital's mobile games.
         </p>
         <div
-         style={{backdropFilter: selected === 1 ? 'blur(5px)' : 'blur(0px)'}}
+          style={{ backdropFilter: selected === 1 ? 'blur(5px)' : 'blur(0px)' }}
           className={`
           absolute top-0 left-0 w-full h-full bg-black
-          ${
-            selected === 1 ? 'bg-opacity-40' : 'bg-opacity-0'
-          }
+          ${selected === 1 ? 'bg-opacity-40' : 'bg-opacity-0'}
           duration-300
           `}
         ></div>
       </div>
-
 
       <div
         onMouseEnter={() => changeSelected(2)}
@@ -79,38 +70,30 @@ const HoverAccrodione = () => {
         <h5
           className={`
           z-10 text-red-400 mb-6 font-bold text-lg lg:text-xl
-          ${
-            selected === 2 ? 'opacity-100' : 'opacity-0'
-          }
+          ${selected === 2 ? 'opacity-100' : 'opacity-0'}
           duration-300`}
         >
-          Full-Stack Development
+          Graphic and Art Design Department:
         </h5>
         <p
           className={`
           relative z-10 text-sm lg:text-gl text-white_color font-normal leading-7 lg:w-[65%]
-          ${
-            selected === 2 ? 'opacity-100' : 'opacity-0'
-          }
+          ${selected === 2 ? 'opacity-100' : 'opacity-0'}
           duration-300`}
         >
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit nobis,
-          vel impedit sequi beatae a qui ratione earum hic dolores quo sint
-          obcaecati numquam repellat quia dignissimos praesentium. Cupiditate,
-          nesciunt?
+          In the Graphic and Art Design Department, creativity meets precision.
+          Our talented team crafts visually stunning and immersive experiences,
+          adding a unique aesthetic touch to Fennec Digital's games.
         </p>
         <div
-         style={{backdropFilter: selected === 2 ? 'blur(5px)' : 'blur(0px)'}}
+          style={{ backdropFilter: selected === 2 ? 'blur(5px)' : 'blur(0px)' }}
           className={`
           absolute top-0 left-0 w-full h-full bg-black
-          ${
-            selected === 2 ? 'bg-opacity-40' : 'bg-opacity-0'
-          }
+          ${selected === 2 ? 'bg-opacity-40' : 'bg-opacity-0'}
           duration-300
           `}
         ></div>
       </div>
-
 
       <div
         onMouseEnter={() => changeSelected(3)}
@@ -128,38 +111,31 @@ const HoverAccrodione = () => {
         <h5
           className={`
           z-10 text-red-400 mb-6 font-bold text-lg lg:text-xl
-          ${
-            selected === 3 ? 'opacity-100' : 'opacity-0'
-          }
+          ${selected === 3 ? 'opacity-100' : 'opacity-0'}
           duration-300`}
         >
-          Full-Stack Development
+          Game Development Department
         </h5>
         <p
           className={`
           relative z-10 text-sm lg:text-gl text-white_color font-normal leading-7 lg:w-[65%]
-          ${
-            selected === 3 ? 'opacity-100' : 'opacity-0'
-          }
+          ${selected === 3 ? 'opacity-100' : 'opacity-0'}
           duration-300`}
         >
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit nobis,
-          vel impedit sequi beatae a qui ratione earum hic dolores quo sint
-          obcaecati numquam repellat quia dignissimos praesentium. Cupiditate,
-          nesciunt?
+          At the heart of innovation, our Game Development Department brings
+          concepts to life. Passionate about storytelling and gameplay, we
+          create captivating and engaging experiences for players worldwide at
+          Fennec Digital.
         </p>
         <div
-         style={{backdropFilter: selected === 3 ? 'blur(5px)' : 'blur(0px)'}}
+          style={{ backdropFilter: selected === 3 ? 'blur(5px)' : 'blur(0px)' }}
           className={`
           absolute top-0 left-0 w-full h-full bg-black
-          ${
-            selected === 3 ? 'bg-opacity-40' : 'bg-opacity-0'
-          }
+          ${selected === 3 ? 'bg-opacity-40' : 'bg-opacity-0'}
           duration-300
           `}
         ></div>
       </div>
-
     </div>
   );
 };

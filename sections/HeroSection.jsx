@@ -12,7 +12,7 @@ const HeroSection = () => {
       id='home'
       className='relative min-h-screen w-full bg-white_color bg-[url(../assets/images/img_one.png)] bg-no-repeat bg-cover bg-center bg-fixed'
     >
-      <div className='absolute top-0 right-0 h-screen w-full bg-[#002010] bg-opacity-80 flex flex-col justify-center items-start pl-4 text-left text-white lg:w-1/2'>
+      <div className='absolute top-0 right-0 h-screen w-full bg-[#002010] bg-opacity-80 flex flex-col justify-center items-start pl-10 text-left text-white lg:w-1/2'>
         <div>
           <h2 className='text-2xl mb-2 lg:text-3xl'>Digital Fennec</h2>
 

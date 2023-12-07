@@ -104,7 +104,7 @@ const Footer = () => {
             <Image src={twitter_img} alt='facebook icon'  className='w-12 cursor-pointer' />
         </div>
 
-        <p className='text-white mt-6'>Digital Fennec. All rights Reserved 2023</p>
+        <p className='text-white mt-6'>This is just a showcase this is <span className='text-red-500'>NOT THE REAL WEBSITE</span></p>
       </div>
     </footer>
   );

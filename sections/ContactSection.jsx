@@ -24,13 +24,14 @@ const ContactSection = () => {
           className='mt-8 w-full flex flex-col justify-start lg:text-lg text-left'
         >
           <h3 className='text-black text-xl font-semibold mb-4'>
-            What We Do ?
+            Get in Touch
           </h3>
 
           <p className='w-full lg:w-1/2 text-black font-normal text-left pl-4 relative before:absolute before:h-full before:w-1 before:rounded-full before:top-0 before:left-0 before:bg-primary_color'>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, ipsa
-            non deserunt iste voluptate illo a repellat nulla veritatis, placeat
-            similique cumque provident ullam quasi voluptatibus.
+            For any inquiries, collaborations, or just to share your thoughts,
+            Fennec Digital welcomes your messages. Feel free to reach out
+            through the provided form, and let's start a conversation. Your
+            feedback matters to us!
           </p>
         </article>
 

@@ -91,7 +91,7 @@ const Navbar = ({ overlay }) => {
         </ul>
 
         <ul
-          className={`left-0 translate-x-[-50%] top-0 aboslute hidden justify-center items-center gap-x-6 duration-300 lg:flex`}
+          className={`left-0 translate-x-[-42%] top-0 aboslute hidden justify-center items-center gap-x-6 duration-300 lg:flex`}
         >
           <li>
             <Link
