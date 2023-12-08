@@ -1,16 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 
-import fullstack_dev_img from '../assets/images/fullstack_dev_img.png'
-import graphic_design_img from '../assets/images/graphic_design_img.png'
-import game_dev_img from '../assets/images/game_dev_img.png'
+import fullstack_dev_img from '../assets/images/fullstack_dev_img.png';
+import graphic_design_img from '../assets/images/graphic_design_img.png';
+import game_dev_img from '../assets/images/game_dev_img.png';
 
 const HoverAccrodione = () => {
   const [selected, setSeletected] = useState(1);
 
   const changeSelected = (index) => {
     setSeletected(index);
-    console.log(index);
   };
 
   return (
@@ -31,7 +30,11 @@ const HoverAccrodione = () => {
         bg-no-repeat bg-cover bg-center bg-fixed
         `}
       >
-        <Image src={fullstack_dev_img} alt='something' className='absolute h-full bg-cover' />
+        <Image
+          src={fullstack_dev_img}
+          alt='something'
+          className='absolute h-full bg-cover'
+        />
 
         <h5
           className={`
@@ -74,7 +77,11 @@ const HoverAccrodione = () => {
         bg-no-repeat bg-cover bg-center bg-fixed
         `}
       >
-        <Image src={graphic_design_img} alt='something' className='absolute h-full bg-cover' />
+        <Image
+          src={graphic_design_img}
+          alt='something'
+          className='absolute h-full bg-cover'
+        />
 
         <h5
           className={`
@@ -117,7 +124,11 @@ const HoverAccrodione = () => {
         bg-no-repeat bg-cover bg-center bg-fixed
         `}
       >
-        <Image src={game_dev_img} alt='something' className='absolute h-full bg-cover' />
+        <Image
+          src={game_dev_img}
+          alt='something'
+          className='absolute h-full bg-cover'
+        />
 
         <h5
           className={`
