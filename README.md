@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Fennec Digital Website
 
-## Getting Started
+# **Fennec Digital - Mobile Game Development**
 
-First, run the development server:
+![https://github.com/Louai-Zokerburg/digital-fennec-website-v2/blob/main/assets/img_one.png?raw=true](https://github.com/Louai-Zokerburg/digital-fennec-website-v2/blob/main/assets/img_one.png?raw=true)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## **Live Demo**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit the live site: [Fennec Digital](https://digital-fennec-website.vercel.app/)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## **Description**
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Welcome to the Fennec Digital website repository! Explore our world of innovative and captivating mobile games. Learn more about our company, mission, and the exciting experiences we create.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## **Tech Stack**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Next.js
+- React.js
+- JavaScript
+- Tailwindcss
+- AOS (Animation on scroll)
+- Git/GitHub
+- Vercel For Deployment
 
-## Learn More
+## **Features**
 
-To learn more about Next.js, take a look at the following resources:
+- **Dynamic Content:** Built using Next.js for a responsive and dynamic user experience.
+- **Multi-Departmental Showcase:** Discover our Full Stack, Graphic and Art Design, and Game Development departments.
+- **Funky Games:** Explore our whimsical and engaging game portfolio.
+- **Contact Us:** Easily connect with us for inquiries and collaborations.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## **How to Install**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Clone this repository to your local machine.
+    
+    ```bash
+    git clone https://github.com/Louai-Zokerburg/digital-fennec-website-v2.git
+    ```
+    
+2. Navigate to the project directory.
+    
+    ```bash
+    cd digital-fennec-website-v2
+    ```
+    
+3. Install dependencies.
+    
+    ```bash
+    npm install
+    ```
+    
 
-## Deploy on Vercel
+## **Usage**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Start the development server.
+    
+    ```bash
+    npm run dev
+    ```
+    
+2. Open your browser and go to [http://localhost:3000](http://localhost:3000/) to view the website.
