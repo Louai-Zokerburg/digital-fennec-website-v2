@@ -1,17 +1,21 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 
+import Image from 'next/image';
+
 import CtaButton from '../components/CtaButton';
 import SocailProvCard from '../components/SocailProvCard';
 
 import arrow_img from '../assets/images/arrow.svg';
+import img_one from '../assets/images/img_one.png';
 
 const HeroSection = () => {
   return (
     <section
       id='home'
-      className='relative min-h-screen w-full bg-white_color bg-[url(../assets/images/img_one.png)] bg-no-repeat bg-cover bg-center bg-fixed'
+      className='relative min-h-screen w-full bg-white_color bg-no-repeat bg-cover bg-center bg-fixed'
     >
+      <Image className='w-full max-h-screen' src={img_one} alt='img one' />
       <div className='absolute top-0 right-0 h-screen w-full bg-[#002010] bg-opacity-80 flex flex-col justify-center items-start pl-10 text-left text-white lg:w-1/2'>
         <div>
           <h2 className='text-2xl mb-2 lg:text-3xl'>Digital Fennec</h2>

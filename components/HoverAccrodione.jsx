@@ -1,4 +1,9 @@
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
+
+import fullstack_dev_img from '../assets/images/fullstack_dev_img.png'
+import graphic_design_img from '../assets/images/graphic_design_img.png'
+import game_dev_img from '../assets/images/game_dev_img.png'
 
 const HoverAccrodione = () => {
   const [selected, setSeletected] = useState(1);
@@ -11,7 +16,7 @@ const HoverAccrodione = () => {
   return (
     <div
       data-aos='fade-up'
-      className='flex justify-start items-center gap-x-4 lg:gap-x-8 gap-y-12 mt-6'
+      className='flex  justify-start items-center gap-x-4 lg:gap-x-8 gap-y-12 mt-6'
     >
       <div
         onMouseEnter={() => changeSelected(1)}
@@ -22,10 +27,12 @@ const HoverAccrodione = () => {
             ? 'w-[calc(100%-20%-32px)] lg:w-[calc(100%-40%-64px)]'
             : 'w-[10%] lg:w-[20%]'
         }
-        p-4 lg:p-6 duration-300 rounded-lg overflow-hidden bg-[url(../assets/images/fullstack_dev_img.png)]
+        p-4 lg:p-6 duration-300 rounded-lg overflow-hidden
         bg-no-repeat bg-cover bg-center bg-fixed
         `}
       >
+        <Image src={fullstack_dev_img} alt='something' className='absolute h-full bg-cover' />
+
         <h5
           className={`
           z-10 text-red-400 mb-6 font-bold text-lg lg:text-xl
@@ -63,10 +70,12 @@ const HoverAccrodione = () => {
             ? 'w-[calc(100%-20%-32px)] lg:w-[calc(100%-40%-64px)]'
             : 'w-[10%] lg:w-[20%]'
         }
-        p-4 lg:p-6 duration-300 rounded-lg overflow-hidden bg-[url(../assets/images/graphic_design_img.png)]
+        p-4 lg:p-6 duration-300 rounded-lg overflow-hidden
         bg-no-repeat bg-cover bg-center bg-fixed
         `}
       >
+        <Image src={graphic_design_img} alt='something' className='absolute h-full bg-cover' />
+
         <h5
           className={`
           z-10 text-red-400 mb-6 font-bold text-lg lg:text-xl
@@ -104,10 +113,12 @@ const HoverAccrodione = () => {
             ? 'w-[calc(100%-20%-32px)] lg:w-[calc(100%-40%-64px)]'
             : 'w-[10%] lg:w-[20%]'
         }
-        p-4 lg:p-6 duration-300 rounded-lg overflow-hidden bg-[url(../assets/images/game_dev_img.png)]
+        p-4 lg:p-6 duration-300 rounded-lg overflow-hidden 
         bg-no-repeat bg-cover bg-center bg-fixed
         `}
       >
+        <Image src={game_dev_img} alt='something' className='absolute h-full bg-cover' />
+
         <h5
           className={`
           z-10 text-red-400 mb-6 font-bold text-lg lg:text-xl
