@@ -2,7 +2,7 @@
 
 # **Fennec Digital - Mobile Game Development**
 
-![https://github.com/Louai-Zokerburg/digital-fennec-website-v2/blob/main/assets/img_one.png?raw=true](https://github.com/Louai-Zokerburg/digital-fennec-website-v2/blob/main/assets/img_one.png?raw=true)
+![https://github.com/Louai-Zokerburg/digital-fennec-website-v2/blob/main/assets/img_one.png?raw=true](https://github.com/Louai-Zokerburg/digital-fennec-website-v2/blob/main/project-cover.png?raw=true)
 
 ## **Live Demo**
 
